@@ -109,8 +109,7 @@ Users may request deletion of data associated with their Discord account.
 
 To submit a deletion request, contact us using one of the following methods:
 
-- Email: **[CONTACT EMAIL]**
-- Support server: **[SUPPORT SERVER URL]**
+- Support server: **discord.gg/auc6**
 
 Please include:
 
@@ -138,6 +137,6 @@ Material changes will be reflected by updating the effective date at the top of 
 
 For privacy questions, data requests, or security concerns, contact:
 
-**Operator:** [OPERATOR NAME]  
-**Email:** [CONTACT EMAIL]  
-**Discord support server:** [SUPPORT SERVER URL]
+**Operator:** berkcan.
+**Email:** btberkcan@gmail.com
+**Discord support server:** discord.gg/auc6
