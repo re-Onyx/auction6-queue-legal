@@ -3,18 +3,25 @@
 **Effective date:** August 21, 2026  
 **Application ID:** `1530646865627054152`
 
-This Privacy Policy explains how the Discord application **Auction6 Queue** (“the Application,” “we,” “us,” or “our”) collects, uses, stores, and protects information received through Discord.
+This Privacy Policy explains how the private Discord application **Auction6 Queue** (“the Application,” “we,” “us,” or “our”) collects, uses, stores, and protects information received through Discord.
 
-By using Auction6 Queue, you acknowledge the data practices described in this policy.
+By using Auction6 Queue within the authorized Auction6 Discord server, you acknowledge the data practices described in this policy.
 
 ## 1. About the Application
 
-Auction6 Queue is a Discord queue and hosting management application.
+Auction6 Queue is a private, server-specific Discord queue and hosting management application developed exclusively for the Auction6 community.
+
+The Application:
+
+- Operates only within the authorized Auction6 Discord server
+- Is not offered as a public Discord bot
+- Is not intended to be installed in third-party Discord servers
+- Is available only to members of the authorized Auction6 Discord server
 
 The Application allows eligible server members to:
 
 - Join and leave role-restricted queues
-- Manage separate queue positions
+- Manage queue positions
 - Receive notifications when their turn arrives
 - Participate in timed hosting sessions
 - View personal hosting statistics
@@ -28,115 +35,138 @@ The Application operates through Discord slash commands, buttons, select menus, 
 The Application may process and store the following information:
 
 - Discord user IDs
-- Discord server (guild) IDs
+- The authorized Discord server ID
 - Discord role IDs
 - Discord channel IDs
 - IDs of messages created or managed by the Application
 - Queue entries and queue join times
 - Current host and ready-state information
 - Hosting session start and end times
-- Completed hosting duration
+- Completed hosting durations
 - Queue cooldown information
 - Aggregated hosting and participation statistics
 - Server-specific Application configuration
 
-Discord IDs are numerical identifiers supplied by Discord. The Application does not require users to provide their real name, address, phone number, password, or Discord authentication token.
+Discord IDs are numerical identifiers supplied by Discord.
+
+The Application does not require users to provide their real name, home address, phone number, password, Discord authentication token, or other Discord login credentials.
 
 ## 3. Privileged Gateway Data
 
-Auction6 Queue uses the **Server Members Intent** to:
+Auction6 Queue uses the **Server Members Intent** only within the authorized Auction6 Discord server to:
 
-- Verify whether members have server roles configured by administrators
+- Verify whether members have roles configured by Auction6 administrators
 - Restrict queue and moderation features to eligible members
 - Retrieve current server members for role-filtered statistics
 - Exclude users who have left the server or no longer have an eligible role from applicable reports
 - Resolve current server display names when producing reports
+- Allow authorized moderators to manage eligible queue participants and hosts
 
-The Application does not use the Server Members Intent for advertising, user profiling, unsolicited messages, or tracking users across unrelated Discord servers.
+The Application does not use the Server Members Intent for advertising, marketing, user profiling, unsolicited messages, or cross-server tracking.
 
-Auction6 Queue does not request or use the **Presence Intent** and does not track online status, activities, or presence information.
+Because the Application operates in only one authorized Discord server, member information is not used to track or compare users across unrelated servers.
+
+Auction6 Queue does not request or use the **Presence Intent** and does not track online status, activities, games, or other presence information.
 
 Auction6 Queue does not request or use the **Message Content Intent** and does not monitor or store the content of ordinary user messages.
 
 ## 4. How We Use Information
 
-Collected information is used only to provide and maintain the Application’s functionality, including:
+Collected information is used only to provide and maintain the Application’s functionality within the authorized Auction6 Discord server, including:
 
 - Operating Discord queues
 - Confirming role eligibility
 - Managing ready states and hosting timers
+- Notifying members when their turn arrives
 - Restoring active queues and timers after an Application restart
-- Producing individual statistics and server leaderboards
+- Producing individual hosting statistics
+- Producing server leaderboards
 - Producing weekly, lifetime, and date-based hosting reports
-- Providing moderation and configuration features
-- Diagnosing technical errors and preventing misuse
+- Providing authorized moderation and configuration features
+- Diagnosing technical errors
+- Maintaining Application security and preventing misuse
 
-We do not use Discord API data for targeted advertising, marketing, user profiling, or eligibility decisions unrelated to the Application.
+We do not use Discord API data for targeted advertising, marketing, user profiling, or eligibility decisions unrelated to the Application’s stated queue and hosting functionality.
 
 ## 5. Data Storage and Retention
 
-Application data is stored in a private database accessible only to authorized Application operators.
+Application data is stored in a private database used exclusively to operate Auction6 Queue. Access to the database is restricted to authorized Application operators.
 
-Some operational records, such as active queue entries, ready states, and cooldowns, are retained while required to operate those features.
+Operational records, such as active queue entries, ready states, and cooldowns, are retained while required to operate those features.
 
-Hosting sessions and aggregated statistics may be retained for longer than 30 days so that the Application can provide historical statistics and leaderboards. These records may remain stored until they are no longer required or until a valid deletion request is received.
+Hosting sessions and aggregated statistics may be retained for longer than 30 days so the Application can provide historical statistics, leaderboards, and hosting reports to the Auction6 community.
 
-We periodically review stored data and aim to retain only the information reasonably necessary to provide the Application’s stated functionality and comply with applicable requirements.
+These records may remain stored until they are no longer required for the Application’s functionality or until a valid deletion request is received.
+
+We aim to retain only the information reasonably necessary to operate the Application and comply with applicable requirements.
 
 ## 6. Data Sharing
 
 We do not sell, rent, license, or commercialize Discord API data.
 
-We do not share stored data with advertisers, data brokers, or marketing services.
+We do not share stored data with:
 
-Data may be processed by infrastructure or hosting providers solely to operate the Application. We may also disclose information when legally required or when reasonably necessary to protect the security and integrity of the Application.
+- Advertisers
+- Marketing services
+- Data brokers
+- Operators of unrelated Discord servers
+- Other third parties for their independent use
+
+Data may be processed by infrastructure or hosting providers solely as necessary to host and operate the Application.
+
+We may also disclose information when legally required or when reasonably necessary to protect the Application, the Auction6 community, or its members from fraud, abuse, or security threats.
 
 ## 7. Machine Learning and Artificial Intelligence
 
-Discord message content and other Discord API data collected by Auction6 Queue are not used to train machine-learning or artificial-intelligence models.
+Discord API data processed or stored by Auction6 Queue is not used to train machine-learning or artificial-intelligence models.
+
+The Application does not provide stored Discord API data to third parties for artificial-intelligence or machine-learning training.
 
 ## 8. Data Security
 
-We take reasonable technical and organizational measures to protect stored information. Access to the Application’s hosting environment and database is restricted to authorized operators.
+We take reasonable technical and organizational measures to protect stored information.
 
-Application credentials and secrets are kept separate from publicly accessible source code. Communications with Discord’s API are protected using Discord’s encrypted HTTPS and WebSocket connections.
+Access to the Application’s hosting environment and database is restricted to authorized operators. Application credentials and secrets are kept separate from publicly accessible source code.
+
+Communications between the Application and Discord’s API use Discord’s encrypted HTTPS and WebSocket connections.
 
 No method of electronic storage or transmission is completely secure, and we cannot guarantee absolute security.
 
 ## 9. Data Deletion Requests
 
-Users may request deletion of data associated with their Discord account.
+Members of the Auction6 Discord server may request deletion of data associated with their Discord account.
 
-To submit a deletion request, contact us using one of the following methods:
+To submit a deletion request, contact the Auction6 administration team through:
 
-- Support server: **discord.gg/auc6**
+- **Discord support server:** [https://discord.gg/auc6](https://discord.gg/auc6)
 
-Please include:
+The request should include:
 
-- Your Discord user ID
-- A clear statement that you are requesting deletion of your Auction6 Queue data
-- Any server information reasonably necessary to locate the relevant records
+- The requester’s Discord user ID
+- A clear statement that the requester wants their Auction6 Queue data deleted
 
-We may take reasonable steps to verify that the requester is associated with the relevant Discord account before deleting data.
+We may take reasonable steps to verify that the requester controls or is associated with the relevant Discord account before processing the request.
 
-After verification, we will delete the requester’s stored queue, ready-state, cooldown, hosting-session, and statistics records, except where retention is required by law or necessary to resolve security concerns.
+After verification, we will delete the requester’s stored queue, ready-state, cooldown, hosting-session, and statistics records, except where retention is required by law or temporarily necessary to investigate fraud, abuse, or a security incident.
 
-Server administrators may also contact us regarding deletion of data associated with their server.
+Deletion of stored Application data does not automatically affect the user’s membership, roles, messages, or other information independently maintained by Discord or the Auction6 Discord server.
 
 ## 10. Children’s Privacy
 
-Auction6 Queue is intended only for individuals who meet Discord’s minimum age requirements. We do not knowingly collect information from individuals who are not permitted to use Discord.
+Auction6 Queue is intended only for individuals who meet Discord’s minimum age requirements.
+
+We do not knowingly collect information from individuals who are not permitted to use Discord. If we become aware that such information has been collected, it may be deleted.
 
 ## 11. Changes to This Policy
 
-We may update this Privacy Policy when the Application, legal requirements, or data practices change.
+We may update this Privacy Policy when the Application, its data practices, server operations, or applicable requirements change.
 
-Material changes will be reflected by updating the effective date at the top of this page. Continued use of the Application after an update constitutes acknowledgment of the revised policy.
+Material changes will be reflected by updating the effective date at the top of this page.
 
 ## 12. Contact
 
-For privacy questions, data requests, or security concerns, contact:
+For privacy questions, data deletion requests, or security concerns, contact:
 
-**Operator:** berkcan.
-**Email:** btberkcan@gmail.com
-**Discord support server:** discord.gg/auc6
+**Operator:** berkcan  
+**Email:** btberkcan@gmail.com  
+**Discord support server:** [https://discord.gg/auc6](https://discord.gg/auc6)
